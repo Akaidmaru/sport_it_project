@@ -1,23 +1,132 @@
+/* Resetting styles */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     border: 2px solid red;
-    font-family: 'Be Vietnam Pro', sans-serif;
     /* debugging  */
 }
 
-body{
+
+/* body width */
+body {
     width: 100%;
+    font-family: 'Be Vietnam Pro', sans-serif;
 }
 
-.block-3{
+/* mobile */
+nav {
+    margin-top: 40px;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.padel-player-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.padel-player {
+    width: 80%;
+    /* check size of img, per figma is 400px */
+    margin: 10.25px 2.5px 192.97px;
+}
+
+.main-text-container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+.main-text-container h1 {
+    color: #232C50;
+    font-size: 3.125rem;
+    text-align: right;
+    font-weight: 700;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.main-text-container p {
+    color: #232C50;
+    font-size: 1rem;
+    text-align: right;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.main-text-container button {
+    color: #ffffff;
+    background-color: #8B48BF;
+    font-size: 0.82375rem;
+    padding: 10px;
+    width: 134px;
+    border-radius: 50px;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* mobile color */
+.block-1 {
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    color: white;
+    background-color: #3CDDF3;
+    padding: 40px 20px;
+}
+
+.block-1 h2 {
+    width: 440px;
+    font-weight: 700;
+    line-height: 41.26px;
+    font-size: 2.25rem;
+    margin-bottom: 40px;
+}
+
+.block-1 p {
+    width: 440px;
+    font-weight: 500;
+    font: 1rem;
+    line-height: 1.511rem;
+}
+
+.block-2 p {
+    color: #B3B2B7;
+}
+
+.block-3 {
     display: flex;
     flex-direction: column;
 }
 
-.block-3 h2{
+.block-3 h2 {
     color: #242E53;
     font-size: 2.45088rem;
 
+}
+
+/* mobile color */
+.block-4 {
+    background: #3CDDF3;
 }
