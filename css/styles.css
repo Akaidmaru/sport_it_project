@@ -1,23 +1,22 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    border: 2px solid red;
-    font-family: 'Be Vietnam Pro', sans-serif;
-    /* debugging  */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* border: 2px solid red; */
+  font-family: "Be Vietnam Pro", sans-serif;
+  /* debugging  */
 }
 
-body{
-    width: 100%;
+body {
+  width: 100%;
 }
 
-.block-3{
-    display: flex;
-    flex-direction: column;
+.block-3 {
+  display: flex;
+  flex-direction: column;
 }
 
-.block-3 h2{
-    color: #242E53;
-    font-size: 2.45088rem;
-
+.block-3 h2 {
+  color: #242e53;
+  font-size: 2.45088rem;
 }
