@@ -7,9 +7,9 @@
   /* debugging  */
 }
 
-body {
+/* body {
   width: 100%;
-}
+} */
 
 .block-3 {
   display: flex;
@@ -19,4 +19,32 @@ body {
 .block-3 h2 {
   color: #242e53;
   font-size: 2.45088rem;
+}
+
+.mobil {
+  background-color: darkgray;
+  display: flex;
+  justify-content: space-around;
+  width: 414px;
+  height: 60px;
+  top: 40px;
+  left: 56px;
+}
+
+.logo-nav {
+  width: 107px;
+  height: 25px;
+  position: relative;
+  top: 20px;
+}
+
+i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tenis {
+  background-color: crimson;
+  width: 100%;
 }
