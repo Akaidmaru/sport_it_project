@@ -7,6 +7,9 @@
     /* debugging  */
 }
 
+ul {
+    list-style-type: none;
+}
 
 /* body width */
 body {
@@ -111,7 +114,7 @@ main {
     line-height: 1.511rem;
 }
 
-.circle-number {
+.circle-number { /* ALIGN THIS TO .SUB-TITLE */
     padding: 10px 25px;
     border-radius: 30px;
     background-color: #8B48BF;
@@ -160,34 +163,31 @@ main {
     width: 445px;
     height: 219px;
     margin-top: 109px;
-    background-color: yellow; /* #FAFAFA */
+    background-color: #FAFAFA;
+    /* #FAFAFA */
 }
 
 .avatar {
     position: relative;
     left: 182px;
     bottom: 40px;
-    background-color: blue;
-    
 }
 
-.lebron-card h3{
+.lebron-card h3 {
     color: #3F4868;
     font-size: 1rem;
     font-weight: 700;
     line-height: 1.566rem;
     letter-spacing: -0.161px;
     text-align: center;
-    background-color: yellowgreen;
     position: relative;
     bottom: 30px;
 }
 
-.lebron-card p{
-    background-color: green;
+.lebron-card p {
     color: #B9B9C1;
     font-size: 1rem;
-    /* width: 390px; */
+    /* width: 390px; / /* CHECK THIS */
     font-weight: 500;
     line-height: 1.566rem;
     padding: 0px 0px 25px;
@@ -198,7 +198,7 @@ main {
 
 .more-button {
     width: 114px;
-    background-color:#8B48BF;
+    background-color: #8B48BF;
     color: #fff;
     padding: 10px;
     border-radius: 50px;
@@ -206,6 +206,7 @@ main {
     margin-top: 45px;
     margin-bottom: 58px;
 }
+
 /* mobile color */
 .block-4 {
     height: 366px;
@@ -223,7 +224,7 @@ main {
     text-align: center;
     font-size: 2.5rem;
     font-weight: 700;
-    line-height: 2.99rem;
+    line-height: 3rem;
     letter-spacing: -0.2px;
 }
 
@@ -238,18 +239,92 @@ main {
     font-size: 0.83rem;
     font-weight: 500;
     margin-top: 50px;
-
 }
 
+footer {
+    background-color: #1E1E26;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+}
+
+.box-1 {
+    width: max-content;
+    padding: 40px 50px 10px;
+}
+
+.inbox-form {
+    width: 308px;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.go-button-form {
+    background-color: #8B48BF;
+    width: 63px;
+    border-radius: 50px;
+    padding: 10px;
+    color: #FFF;
+}
+
+.box-2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0px 40px;
+    /* check padding */
+    gap: 25px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.46rem;
+}
+
+.box-2 li {
+    padding: 5px;
+}
+
+.box-3 {
+    width: 100%;
+}
+
+.social-networks {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 50px;
+    /* check this */
+}
+
+.logo-footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+.copyright {
+    font-size: 0.78rem;
+    line-height: 1.14rem;
+    color: #8C8C94;
+    padding: 20px;
+}
+
+
+/* ************************************************* */
 /* Mobile mediaquery */
 
 @media (max-width: 480px) {
     .deskyop {
-        display: none; /* menu de lista */
+        display: none;
+        /* menu de lista */
     }
 
     .lista-horizontal {
-        display: none; /* desktop */
+        display: none;
+        /* desktop */
     }
 
     .block-1 {
@@ -276,4 +351,3 @@ main {
     display: flex;
     align-items: center;
 }
-
