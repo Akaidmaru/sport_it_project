@@ -1,15 +1,154 @@
+/* Resetting styles */
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  /* border: 2px solid red; */
-  font-family: "Be Vietnam Pro", sans-serif;
-  /* debugging  */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 2px solid red;*/
+
 }
 
-/* body {
-  width: 100%;
-} */
+ul {
+    list-style-type: none;
+}
+
+/* body width */
+body {
+    width: 100%;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+/* mobile */
+nav {
+    margin-top: 40px;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.padel-player-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.padel-player {
+    width: 80%;
+    /* check size of img, per figma is 400px */
+    margin: 10.25px 2.5px 192.97px;
+}
+
+.main-text-container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+.main-text-container h1 {
+    color: #232C50;
+    font-size: 3.125rem;
+    text-align: right;
+    font-weight: 700;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.main-text-container p {
+    color: #232C50;
+    font-size: 1rem;
+    text-align: right;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.main-text-container button {
+    color: #ffffff;
+    background-color: #8B48BF;
+    font-size: 0.82375rem;
+    padding: 10px;
+    width: 134px;
+    border-radius: 50px;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* mobile color */
+.block-1 {
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    color: white;
+    background-color: #3CDDF3;
+    padding: 40px 20px;
+}
+
+.block-1 h2 {
+    width: 440px;
+    font-weight: 700;
+    line-height: 41.26px;
+    font-size: 2.25rem;
+    margin-bottom: 40px;
+}
+
+.block-1 p {
+    width: 440px;
+    font-weight: 500;
+    font: 1rem;
+    line-height: 1.511rem;
+}
+
+.block-2 {
+    width: 480px;
+}
+
+.circle-number {
+    /* ALIGN THIS TO .SUB-TITLE */
+    padding: 12px 25px;
+    border-radius: 30px;
+    background-color: #8B48BF;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 700;
+    position: absolute;
+}
+
+.sub-title {
+    background-color: #8B48BF4D;
+    border-radius: 30px 0px 0px 30px;
+    padding: 10px 25px 10px 80px;
+    display: block;
+    color: #323851;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.455rem;
+}
+
+.block-2 p {
+    color: #B3B2B7;
+    font-size: 1.02rem;
+    padding: 20px;
+    font-weight: 500;
+    line-height: 1.60rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
 
 /** Nav desktop**/
 .desktop {
@@ -181,6 +320,7 @@ article p {
 }
 
 .block-3 {
+
   background: #fff;
   width: 1440px;
   /* height: 2639px; */
@@ -325,6 +465,41 @@ footer {
 .logo-footer {
   display: flex;
   justify-content: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block-3 h2 {
+    color: #242E53;
+    font-size: 2.45088rem;
+}
+
+.lebron-card {
+    width: 445px;
+    height: 219px;
+    margin-top: 109px;
+    background-color: #FAFAFA;
+    /* #FAFAFA */
+}
+
+.avatar {
+    position: relative;
+    left: 182px;
+    bottom: 40px;
+}
+
+.lebron-card h3 {
+    color: #3F4868;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.566rem;
+    letter-spacing: -0.161px;
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+
 }
 ul {
   list-style-type: none;
@@ -340,6 +515,7 @@ ul {
   align-items: flex-start;
   height: 120px;
 }
+
 
 .box-3 {
   display: flex;
@@ -377,4 +553,172 @@ input {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+
+.lebron-card p {
+    color: #B9B9C1;
+    font-size: 1rem;
+    /* width: 390px; / /* CHECK THIS */
+    font-weight: 500;
+    line-height: 1.566rem;
+    padding: 0px 0px 25px;
+    text-align: center;
+
+
+}
+
+
+.more-button {
+    width: 114px;
+    background-color: #8B48BF;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50px;
+    gap: 10px;
+    margin-top: 45px;
+    margin-bottom: 58px;
+}
+
+/* mobile color */
+.block-4 {
+    height: 366px;
+    width: 100%;
+    background: #3CDDF3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.block-4 h2 {
+    color: #fff;
+    width: 324px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3rem;
+    letter-spacing: -0.2px;
+}
+
+.block-4 button {
+    background-color: #232C50;
+    color: #fff;
+    width: 134px;
+    height: 44px;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+    font-size: 0.83rem;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+footer {
+    background-color: #1E1E26;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+}
+
+.box-1 {
+    width: max-content;
+    padding: 40px 50px 10px;
+}
+
+.inbox-form {
+    width: 308px;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.go-button-form {
+    background-color: #8B48BF;
+    width: 63px;
+    border-radius: 50px;
+    padding: 10px;
+    color: #FFF;
+}
+
+.box-2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0px 40px;
+    /* check padding */
+    gap: 25px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.46rem;
+}
+
+.box-2 li {
+    padding: 5px;
+}
+
+.box-3 {
+    width: 100%;
+}
+
+.social-networks {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 50px;
+    /* check this */
+}
+
+.logo-footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+.copyright {
+    font-size: 0.78rem;
+    line-height: 1.14rem;
+    color: #8C8C94;
+    padding: 20px;
+}
+
+
+/* ************************************************* */
+/* Mobile mediaquery */
+
+@media (max-width: 480px) {
+    .deskyop {
+        display: none;
+        /* menu de lista */
+    }
+
+    .lista-horizontal {
+        display: none;
+        /* desktop */
+    }
+
+    .block-1 {
+        background-color: #3cddf3;
+    }
+
+    .navarro-card {
+        display: none;
+    }
+
+    .sanyo-card {
+        display: none;
+    }
+}
+
+.block-1 p {
+    color: #fff;
+    text-align: left;
+}
+
+.block-1 h2 {
+    color: #fff;
+    height: 88px;
+    display: flex;
+    align-items: center;
 }
