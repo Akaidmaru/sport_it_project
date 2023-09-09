@@ -150,7 +150,322 @@ main {
     margin-bottom: 10px;
 }
 
+/** Nav desktop**/
+.desktop {
+  padding: 65px 165px;
+  display: flex;
+  justify-content: space-between;
+}
+.lista-horizontal li {
+  margin: 0 15px;
+}
+.lista-horizontal {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.contact {
+  border-radius: 50px;
+  background: #8b48bf;
+  box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
+  width: 134px;
+  height: 44px;
+  color: #fff;
+}
+
+/*Body-desktop*/
+
+.live {
+  display: flex;
+  align-items: center;
+  padding: 65px 180px 96px 170px;
+  gap: 100px;
+}
+
+article {
+  display: flex;
+  align-items: flex-end;
+  width: 450px;
+  flex-direction: column;
+}
+
+.inf {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+h1 {
+  position: relative;
+  padding-top: 100px;
+  color: #232c50;
+  text-align: right;
+  font-family: Be Vietnam;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+article p {
+  color: #000;
+  font-family: Be Vietnam Pro;
+  font-size: 16.558px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: right;
+}
+.contact-button {
+  width: 134px;
+  height: 44px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #8b48bf;
+  color: #fff;
+  padding: 10px;
+}
+
+.block-1 {
+  background-color: #8b48bf;
+  display: flex;
+  padding: 40px 0px;
+  justify-content: center;
+  gap: 100px;
+}
+
+.block-1 h2 {
+  color: #fff;
+  height: 88px;
+  display: flex;
+  align-items: center;
+  width: 450px;
+  font-family: Be Vietnam;
+  font-size: 36px;
+}
+.block-1 p {
+  display: flex;
+  width: 450px;
+  height: 88px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Be Vietnam;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 151.1%;
+}
+
+.block-2 {
+  display: flex;
+  width: 1529px;
+  padding: 40px 0px;
+  background: #fafafa;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.up {
+  display: flex;
+  gap: 50px;
+}
+.up > div {
+  width: 553px;
+  flex-direction: row;
+  display: flex;
+  align-items: flex-start;
+  gap: 23px;
+}
+
+.up-2 {
+  display: flex;
+  width: 553px;
+  align-items: start;
+  gap: 23px;
+}
+
+.circle-number {
+  background: #8b48bf;
+  border-radius: 30px;
+  padding: 10px 25px;
+
+  align-items: center;
+  color: #fff;
+}
+
+.block-2 p {
+  color: #b3b2b7;
+  font-size: 1.02rem;
+  padding: 10px;
+  font-weight: 500;
+  line-height: 1.6rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.sub-title {
+  padding: 10px 25px 10px 10px;
+  display: block;
+  color: #323851;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.455rem;
+}
+
 .block-3 {
+
+  background: #fff;
+  width: 1440px;
+  /* height: 2639px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 78px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  padding-left: 71px;
+}
+
+.block-3 h2 {
+  color: #242e53;
+  text-align: center;
+  font-family: Be Vietnam;
+  font-size: 39.214px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 156.6%; /* 61.41px */
+  letter-spacing: -0.392px;
+  padding-top: 59px;
+  margin-left: 95px;
+}
+
+.sanyo-card {
+  width: 445px;
+  height: 219px;
+  margin-top: 109px;
+  background-color: #fafafa;
+}
+.lebron-card {
+  width: 445px;
+  height: 219px;
+  margin-top: 109px;
+  background-color: #fafafa;
+}
+
+.avatar {
+  position: relative;
+  left: 182px;
+  bottom: 40px;
+}
+
+.row h3 {
+  color: #3f4868;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.566rem;
+  letter-spacing: -0.161px;
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+}
+
+.row p {
+  color: #b9b9c1;
+  font-size: 1rem;
+  /* CHECK THIS */
+  font-weight: 500;
+  line-height: 1.566rem;
+  padding: 0px 0px 25px;
+  text-align: center;
+}
+
+.navarro-card {
+  width: 445px;
+  height: 219px;
+  margin-top: 109px;
+  background-color: #fafafa;
+}
+
+.more-button {
+  width: 114px;
+  background-color: #8b48bf;
+  color: #fff;
+  padding: 10px;
+  border-radius: 50px;
+  gap: 10px;
+  margin-top: 45px;
+  margin-bottom: 58px;
+}
+
+.block-4 {
+  height: 366px;
+  width: 100%;
+  background: #8b48bf;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 300px;
+}
+
+.block-4 h2 {
+  color: #fff;
+  width: 500px;
+  text-align: left;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 3rem;
+  letter-spacing: -0.2px;
+}
+
+.block-4 button {
+  background-color: #fff;
+  color: #8b48bf;
+  width: 134px;
+  height: 44px;
+  padding: 10px;
+  border-radius: 50px;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+  font-size: 0.83rem;
+  font-weight: 500;
+  margin-top: 50px;
+}
+
+footer {
+  background-color: #1e1e26;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 247px;
+}
+
+.box-1 {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  gap: 43px;
+}
+.box-2 {
+  display: flex;
+  width: 343px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 72px;
+  color: #ffffff;
+}
+.logo-footer {
+  display: flex;
+  justify-content: center;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -184,7 +499,60 @@ main {
     text-align: center;
     position: relative;
     bottom: 30px;
+
 }
+ul {
+  list-style-type: none;
+}
+.box-2 li {
+  padding: 5px;
+  width: 140px;
+}
+.rigth-ul {
+  display: flex;
+  flex-direction: column;
+  /* justify-items: start; */
+  align-items: flex-start;
+  height: 120px;
+}
+
+
+.box-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+input {
+  border-radius: 50px;
+  background: #fff;
+  width: 201px;
+  height: 44px;
+  padding: 10px;
+  align-items: center;
+  gap: 10px;
+}
+
+.go-button-form {
+  border-radius: 50px;
+  background: #8b48bf;
+
+  width: 63px;
+  height: 42px;
+  padding: 10px;
+  color: #fff;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.copyright {
+  color: #8c8c94;
+  font-family: Be Vietnam;
+  font-size: 12.5px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 
 .lebron-card p {
     color: #B9B9C1;
@@ -194,6 +562,7 @@ main {
     line-height: 1.566rem;
     padding: 0px 0px 25px;
     text-align: center;
+
 
 }
 
